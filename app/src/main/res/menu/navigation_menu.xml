@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_id"
+            android:title="@string/home"
+            android:icon="@drawable/ic_home_black_24dp">
+        </item>
+
+        <item
+            android:id="@+id/share_id"
+            android:title="@string/share"
+            android:icon="@drawable/ic_share_black_24dp">
+        </item>
+
+        <item
+            android:id="@+id/inbox_id"
+            android:title="@string/inbox"
+            android:icon="@drawable/ic_star_half_black_24dp">
+        </item>
+
+        <item
+            android:id="@+id/signout_id"
+            android:title="@string/signout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp">
+        </item>
+
+    </group>
+
+</menu>

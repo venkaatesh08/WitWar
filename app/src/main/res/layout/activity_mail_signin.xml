@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".mail_signin">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_centerInParent="true">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/witwarlogo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sign In"
+                android:textSize="25sp"
+                android:layout_marginTop="50dp"
+                android:textColor="#050505"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/email_id"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#020202"
+                android:background="#FFFFFF"
+                android:layout_marginTop="25dp"
+                android:maxLines="1"
+                android:lines="1"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#4b000000"/>
+
+
+            <EditText
+                android:id="@+id/pass_id"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:hint="Password"
+                android:textColor="#020202"
+                android:inputType="textPassword"
+                android:background="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:maxLines="1"
+                android:lines="1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#4b000000"/>
+
+
+            <TextView
+                android:id="@+id/forget_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Forget Password?"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:textColor="#F30606"
+                android:textStyle="normal"/>
+
+
+            <Button
+                android:id="@+id/btn_signin"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="25dp"
+                android:text="Sign in"
+                android:textSize="20sp"
+                android:drawablePadding="-15sp"
+                android:paddingRight="16dp"
+                android:textColor="#FFFFFF"
+                android:elevation="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textAllCaps="true"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:background="@drawable/round_facebook"/>
+
+
+            <TextView
+                android:id="@+id/signup_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Not a Member? SignUp Now"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:textColor="#3b5998 "
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

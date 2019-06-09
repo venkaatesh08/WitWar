@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "652707240184",
+    "firebase_url": "https://witwar-e58aa.firebaseio.com",
+    "project_id": "witwar-e58aa",
+    "storage_bucket": "witwar-e58aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652707240184:android:041817a6e1bd66c4",
+        "android_client_info": {
+          "package_name": "com.example.witwar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652707240184-g08cntps3anmk4cvmuq4udgmtnejh5ic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.witwar",
+            "certificate_hash": "184ec2cd5bd79892411823229327297b6585b445"
+          }
+        },
+        {
+          "client_id": "652707240184-rhijqmtspb6j9c3r60qbmjgu3tollckp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4OTQg7QuxOJHrx2yxMtzJKtvKVRJohJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652707240184-rhijqmtspb6j9c3r60qbmjgu3tollckp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
